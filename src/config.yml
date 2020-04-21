@@ -1,24 +1,30 @@
-enabled: true
+# 
 # the below are all the material names of the items that you can only have one of at a time 
-# The names can be found at (https://helpch.at/docs/1.12.2/index.html?org/bukkit/Material.html)
+# The names can be found at (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
+enabled: true
 one-at-a-time:
-  - DIAMOND_AXE
-  - DIAMOND_HOE
-  - DIAMOND_PICKAXE
-  - DIAMOND_SHOVEL
-  - GOLD_AXE
-  - GOLD_HOE
-  - GOLD_PICKAXE
-  - GOLD_SHOVEL
-  - IRON_AXE
-  - IRON_HOE
-  - IRON_PICKAXE
-  - IRON_SHOVEL
-  - STONE_AXE
-  - STONE_HOE
-  - STONE_PICKAXE
-  - STONE_SHOVEL
-  - WOODEN_AXE
-  - WOODEN_HOE
-  - WOODEN_PICKAXE
-  - WOODEN_SHOVEL
+- DIAMOND_SWORD
+- DIAMOND_AXE
+- DIAMOND_HOE
+- DIAMOND_PICKAXE
+- DIAMOND_SPADE
+- GOLD_SWORD
+- GOLD_AXE
+- GOLD_HOE
+- GOLD_PICKAXE
+- GOLD_SPADE
+- IRON_SWORD
+- IRON_AXE
+- IRON_HOE
+- IRON_PICKAXE
+- IRON_SPADE
+- STONE_SWORD
+- STONE_AXE
+- STONE_HOE
+- STONE_PICKAXE
+- STONE_SPADE
+- WOOD_SWORD
+- WOOD_AXE
+- WOOD_HOE
+- WOOD_PICKAXE
+- WOOD_SPADE
