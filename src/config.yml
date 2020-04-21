@@ -1,0 +1,24 @@
+enabled: true
+# the below are all the material names of the items that you can only have one of at a time 
+# The names can be found at (https://helpch.at/docs/1.12.2/index.html?org/bukkit/Material.html)
+one-at-a-time:
+  - DIAMOND_AXE
+  - DIAMOND_HOE
+  - DIAMOND_PICKAXE
+  - DIAMOND_SHOVEL
+  - GOLD_AXE
+  - GOLD_HOE
+  - GOLD_PICKAXE
+  - GOLD_SHOVEL
+  - IRON_AXE
+  - IRON_HOE
+  - IRON_PICKAXE
+  - IRON_SHOVEL
+  - STONE_AXE
+  - STONE_HOE
+  - STONE_PICKAXE
+  - STONE_SHOVEL
+  - WOODEN_AXE
+  - WOODEN_HOE
+  - WOODEN_PICKAXE
+  - WOODEN_SHOVEL

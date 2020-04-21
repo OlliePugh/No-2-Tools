@@ -1,0 +1,16 @@
+name: No2Tools
+version: 1.00
+main: com.olliepugh.no2tools.Main
+author: Ollie Pugh
+
+commands:
+  no2tools:
+    description: Enables and disables the no2tool plugin
+    permission: no2tools.admin
+    permission-msg: You do not have permission to do that!
+    usage: |
+      Syntax Error: /no2tools [enable/disable] - Enable or disable the plugin
+
+permissions:
+  no2tools.admin:
+    description: Allows the ability to toggle the plugin on and off
