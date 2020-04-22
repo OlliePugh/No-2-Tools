@@ -24,12 +24,32 @@ public class Main extends JavaPlugin {
 		
 		singleItems = new ArrayList<Material>();
 		
+		List<String> illegalItems = new ArrayList<String>();
+		
 		for (String ids : singleIds) {
-			singleItems.add(Material.valueOf(ids));
+			try {
+				singleItems.add(Material.valueOf(ids));
+			} catch (IllegalArgumentException e) {
+				illegalItems.add(ids);
+			}
+		}
+		
+		if (!illegalItems.isEmpty()) { // where there any invalid items in the config.yml
+			String message = "[No2Tools] Ignoring unknown item types found in config.yml:";
+			
+			for (String id : illegalItems) {
+				message +=  "\n\t\t\t" + id; // display all the invalid ids
+			}
+			
+			System.out.println(message);
 		}
 		
 		new PickUpListener();
 		new No2Tools();
+	}
+	
+	public void onDisable() {
+		saveConfig();
 	}
 	
 	public void loadConfig() {
