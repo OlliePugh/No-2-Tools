@@ -8,6 +8,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 import com.olliepugh.no2tools.Main;
 import com.olliepugh.no2tools.commands.No2Tools;
+import com.olliepugh.no2tools.listeners.InvAddListener;
+import com.olliepugh.no2tools.listeners.InvCloseEvent;
 import com.olliepugh.no2tools.listeners.PickUpListener;
 
 public class Main extends JavaPlugin {
@@ -45,6 +47,8 @@ public class Main extends JavaPlugin {
 		}
 		
 		new PickUpListener();
+		new InvAddListener();
+		new InvCloseEvent();
 		new No2Tools();
 	}
 	

@@ -2,6 +2,8 @@
 # the below are all the material names of the items that you can only have one of at a time 
 # The names can be found at (https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html)
 enabled: true
+manage-pick-up: true
+manage-inventory-transfer: true
 one-at-a-time:
 - DIAMOND_SWORD
 - DIAMOND_AXE
