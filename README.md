@@ -10,7 +10,7 @@ Please use the material values from the [1.2.2 Bukkit Material List](https://hub
 
 ## Commands
 
-**/randomspawn [enable/disable]:** Enables or disables the 1 tool rule, Requires no2tools.admin.  
+**/no2tools [enable/disable]:** Enables or disables the 1 tool rule, Requires no2tools.admin.  
 
 ## Permissions
 
